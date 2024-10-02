@@ -1,0 +1,106 @@
+
+
+.formconstainer{
+background-color: #fff;
+border-radius: 2rem;
+    width: 95%;
+    height: 80%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: scroll;
+
+}
+
+.subForm{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    /* background-color: pink; */
+    padding: 3rem;
+}
+
+ .myinfo{
+    width: 25rem;
+    height: 11rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    place-items: center;
+
+}
+   
+ .myprofileimg{
+    display: grid;
+    place-items: center;
+}
+
+ .myprofileimg img{
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.myinfo .myprofilname{
+    margin: 2rem;
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    text-align: start;
+    margin-left: none;
+}
+
+.feedback{
+    background-color: #fff;
+    width: 25rem;
+  height: 14rem;
+  margin-top: 4rem;
+  border-radius: 1.5rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.feedback h1{
+    font-weight: 700;
+}
+
+.feedback h2{
+    background-color: lightgreen;
+    padding: 2rem 3rem;
+    display: flex;
+    align-self: center;
+    border-radius: 1rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.formsection{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.formconstainer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+label{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.input{
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    border-radius: 1rem;
+}

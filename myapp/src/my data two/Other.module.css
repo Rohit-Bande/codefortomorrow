@@ -1,0 +1,22 @@
+.anothermain{
+    /* background-color: yellow; */
+    display: grid;
+    align-items: center;
+    padding: 8rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.box{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.box img{
+    width: 100%;
+
+}
+
